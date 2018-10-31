@@ -2,5 +2,5 @@ applications:
 - disk_quota: 256M
   instances: 1
   memory: 256M
-  name: MAX-Image-Caption-Generator-Web-App
+  name: MAX-Image-Caption-Generator-Web-App-pa
   command: python app.py -port=$PORT -ml-endpoint=$ML_ENDPOINT
